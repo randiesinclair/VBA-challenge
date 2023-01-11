@@ -1,3 +1,21 @@
+# VBA challenge
+This project is about using Excel VBA to create a script that loops through all stocks for one year and outputs the ticker symbol, yearly change from the opening price, percentage change from the opening price, and total stock volume of the stock. Additionally, the script should return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". The final solution should also enable the script to run on every worksheet at once and include conditional formatting to highlight positive and negative changes in green and red respectively.
+
+# Technical Skills Required
+- VBA scripting
+- Understanding of Excel and working with worksheets
+- Knowledge of loops and conditional formatting
+
+# Project Parameters
+- The script should be able to loop through all stocks for one year
+- Output the ticker symbol, yearly change, percentage change, and total stock volume
+- Return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume"
+- The script should run on every worksheet at once and include conditional formatting to highlight positive and negative changes in green and red respectively
+- The script should be tested with the sheet alphabetical_testing.xlsx and run under 3 to 5 minutes
+- The final solution should be submitted to GitHub/GitLab with Screenshots of the results, separate VBA script files, and a README file.
+
+
+# Final Analysis
 Sub Stock_Analyst()
 
     'Make macro run on all sheets
